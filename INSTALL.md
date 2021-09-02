@@ -6,7 +6,7 @@ Before we get started with the installation make sure you have a live CD/USB of 
 
 ### Define the variables
 ```
-v=9-2-2021
+v=09-02-2021
 url=https://github.com/owbut/owbux/releases/download/$v
 file=owbux-$v.tar.xz
 ```
