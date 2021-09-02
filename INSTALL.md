@@ -16,6 +16,10 @@ The tarball is just the base system, meaning the kernel and the package manager.
 
 The packages that are included with Owbux are: base, base-devel (autoconf, automake, binutils, bison, fakeroot, file, findutils, flex, gawk, gcc, gettext, grep, groff, gzip, libtool, m4, make, pacman, patch, pkgconf, sed, sudo, textinfo, which), linux-zen, linux-firmware
 
+```
+> curl -fLO $url/$file
+```
+
 ### Unpacking the tarball
 This will install the base system.
 ```
