@@ -36,7 +36,7 @@ This will allow your system to know what drives to mount on boot.
 ### Enter the chroot
 This will avoid the annoyance of mounting the pseudo filesytems. This will enable the network with in the new installation and will chroot you in as root.
 ```
-> /mnt/bin/owbux-chroot /mnt
+> /mnt/usr/bin/owbux-chroot /mnt
 ```
 
 ### Change the locale
