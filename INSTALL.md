@@ -8,7 +8,7 @@ Before we get started with the installation make sure you have a live CD/USB of 
 ```
 v=09-02-2021
 url=https://github.com/owbut/owbux/releases/download/$v
-file=owbux-$v.tar.gz
+file=owbux-$v.tar.xz
 ```
 
 ### Download the tarball
