@@ -14,7 +14,7 @@ file=owbux-$v.tar.gz
 ### Download the tarball
 The tarball is just the base system, meaning the kernel and the package manager. Everything else, like the bootloader and drivers, will require you to install it manually.  
 
-The packages that are included with Owbux are: base, base-devel (autoconf, automake, binutils, bison, fakeroot, file, findutils, flex, gawk, gcc, gettext, grep, groff, gzip, libtool, m4, make, pacman, patch, pkgconf, sed, sudo, textinfo, which), linux-zen, linux-firmware
+The packages that are included with Owbux are: base, base-devel (autoconf, automake, binutils, bison, fakeroot, file, findutils, flex, gawk, gcc, gettext, grep, groff, gzip, libtool, m4, make, pacman, patch, pkgconf, sed, sudo, textinfo, which), linux-zen, linux-zen-docs, linux-zen-headers, linux-firmware
 
 ```
 > curl -fLO $url/$file
