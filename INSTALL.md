@@ -39,6 +39,12 @@ This will avoid the annoyance of mounting the pseudo filesytems. This will enabl
 > /mnt/usr/bin/owbux-chroot /mnt
 ```
 
+### Install the kernel
+Install the kernel you want. The default kernel will be linux.
+```
+> pacman -S linux
+```
+
 ### Change the locale
 Change the locale fitting to your needs.
 
