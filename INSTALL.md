@@ -14,7 +14,7 @@ file=owbux-$v.tar.xz
 ### Download the tarball
 The tarball is just the base system, meaning the kernel and the package manager. Everything else, like the bootloader and drivers, will require you to install it manually.  
 
-The packages that are included with Owbux are: base, base-devel (autoconf, automake, binutils, bison, fakeroot, file, findutils, flex, gawk, gcc, gettext, grep, groff, gzip, libtool, m4, make, pacman, patch, pkgconf, sed, sudo, textinfo, which), linux-zen, linux-zen-docs, linux-zen-headers, linux-firmware
+The packages that are included with Owbux are: base, base-devel (autoconf, automake, binutils, bison, fakeroot, file, findutils, flex, gawk, gcc, gettext, grep, groff, gzip, libtool, m4, make, pacman, patch, pkgconf, sed, sudo, textinfo, which), linux, linux-headers
 
 ```
 > curl -fLO $url/$file
@@ -68,7 +68,7 @@ To enable it run `systemctl enable fstrim.timer`
 ### Change the password and add a user
 To change the root password run `passwd`.
 
-To add a user run `useradd` with the flags you want to put aka wheel etc.
+To add a user run `adduser` with the flags you want to put aka wheel etc.
 
 To change the password for the new user run `passwd $username`
 
